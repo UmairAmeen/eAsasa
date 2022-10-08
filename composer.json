@@ -1,0 +1,75 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "laravelcollective/html": "^5.2",
+        "propaganistas/laravel-phone": "^2.8",
+        "milon/barcode": "^5.3",
+        "cknow/laravel-money": "~0.1.0",
+        "spatie/laravel-backup": "^3.10",
+        "yajra/laravel-datatables-oracle": "~6.0",
+        "barryvdh/laravel-debugbar": "^2.3",
+        "zizaco/entrust": "dev-master#6a0fd8c3b73037b4855c6c4eaf1060788c0df1e9",
+        "barryvdh/laravel-snappy": "^0.3.2",
+        "doctrine/dbal": "^2.7",
+        "maddhatter/laravel-fullcalendar": "^1.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "linecorp/line-bot-sdk": "^2.3",
+        "muhamadrezaar/highcharts": "^1.0",
+        "maatwebsite/excel": "~2.1.0",
+        "mbezhanov/faker-provider-collection": "^1.2",
+        "nwidart/laravel-modules": "^1",
+        "elibyy/tcpdf-laravel": "5.2"
+
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "laralib/l5scaffold": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Modules\\": "Modules/"
+        },
+        "files": ["app/Http/helpers.php","app/External/PdfInvoice/inc/__autoload.php"]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

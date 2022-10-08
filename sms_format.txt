@@ -1,0 +1,23 @@
+Payment Notification
+-- 22nd Apr 2018 --
+Shahbaz Cheaque(Habib Bank)[#2199281][90,000] Release Date
+
+==Payment Collection Call==
+- Qasim Shuja Last Payment (19 Apr 2018) Pending Amount 67000
+- Nouman Bhatti Last Payment (1 June 2017) Pending Amount 493000
+- Haji Salamat Last Payment (19 Jan 2018) Pending Amount 6000
+
+== Call Again Notification==
+
+- Hafiz Shahid [Payment Notification] Last Payment (19 Apr 2018) Pending Amount 67000
+- Salman Khawaja [CALL BACK] [Some Coments]
+
+
+-----------------------------------------------------
+[graph]=[monthly, party, recovery]
+[notification]
+[calendar]
+[cheque] => bank(optional), amount, check no(optional), release date(optional), party(optional*)
+[ledgers] => [time filter]
+[]
+[baqi khud dekh lay]

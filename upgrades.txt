@@ -1,0 +1,10 @@
+=> Bulk Product Pricing Update
+=> Log Report [done]
+=> Payables [done]
+=> units
+=> Daily Report
+=> Maal Wapsi
+=> Profit/Loss Based on Item Purchase Price / Item Sale
+=> Item Sold Price Detail
+	=> Price Record Difference
+=> Roles (End)

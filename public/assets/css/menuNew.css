@@ -1,0 +1,27 @@
+#customer_supplier,#transactions_submenu, #products_submenu, #warehouse_submenu,#purchase_sale,#stocks_submenu, #settings_notifications{
+    display: none;
+}
+
+#customer_font, #warehouse_font, #stock_font,#setting_font,#purchase_font, #report_font, #dashboard_font{
+    font-size: 14px;
+    width: 100%;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* #customer_font:hover, #warehouse_font:hover, #stock_font:hover,#setting_font:hover,#purchase_font:hover{
+  font-size: 12px;
+  transition: 0.9s;
+  font-size: 16px;
+} */
+#sidebar{
+  overflow-y: auto !important;
+}
+#sidebar::-webkit-scrollbar {
+  display: none;
+}

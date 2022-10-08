@@ -1,0 +1,449 @@
+.top-bg-left {
+    background-color: #4caf50;
+    color: white;
+}
+.top-bg-right {
+    /* padding:10px; */
+    padding-left:30px;
+}
+.topsaleicons {
+    cursor:pointer;
+    text-align:center;
+    padding-top:20px;
+    border-left:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+}
+.topsaleicons:hover {
+    color:white;
+    background-color:#70c673;
+}
+.topsaleicons:hover > i, .topsaleicons:hover > h4 {
+    color:white;
+}
+.inputsearch_area {
+    height:60px;
+}
+
+.whiteclass {
+    background-color:#70c673;
+    color:white !important;
+}
+
+.bottomicons {
+    padding:20px;
+    font-size:32px;
+    text-align:center;
+    width:150px;
+    display: inline-block;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    background-color:#F2F2F2;
+    cursor:pointer;
+}
+
+.orderico_btn:active {
+    color:white;
+    background-color:#70c673;
+}
+
+
+.topsaleicons i {
+    font-size:30px;
+    color:grey;
+}
+.topsaleicons h4 {
+    font-size:18px;
+    margin-top:5px;
+    color:grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pos-text {
+    font-family:'Times New Roman', Times, serif;
+    padding:5px;
+}
+.pos-text-mid {
+    margin-top:5px;
+    font-family:'Times New Roman', Times, serif;
+    color:white !important;
+    margin-left:10px;
+}
+.topleft_heading {
+    background-color: #464646;;
+    padding:5px;
+    box-shadow: 0px 0px 0px 1px #fff;
+    font-size: 16px;
+}
+.brand-wrap {
+    width:100%;
+}
+.searchico {
+    font-size: 17px;
+    float: right;
+    margin-top: 5px;
+    background-color: white;
+    color: #3ba53d;
+    padding: 8px;
+    border-radius: 25px;
+    cursor:pointer;
+    border:1px solid white;
+}
+.searchico:hover {
+    background-color:#4caf50;
+    color:white; 
+    
+}
+.backhomeico {
+    font-size: 16px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #ea423d;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+    cursor:pointer;
+    border:1px solid white;
+}
+.backhomeico:hover {
+    background-color:white;
+    color:#c53430; 
+    
+}
+
+
+.barcode {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}
+
+.productshow {
+    background-color: white;
+    border-radius: 5px;
+    margin: 5% 1% 1% 0%;
+    padding: 10px;
+    height:150px;
+    border:1px solid lightgrey;
+    padding-bottom: 0px !important;
+    cursor:pointer
+}
+.carttable {
+    height: auto  !important;
+    min-height:400px !important;
+    width:100% !important;
+}
+.product_heading {
+    font-weight:600;
+}
+.price-p {
+    display: inline-block;
+    width: 100%;
+    font-size:18px;
+    margin-top: 14px !important;
+}
+.greencircle {
+    float: right;
+    margin-top: 0px;
+    font-size: 14px;
+    background-color: #28ad4a;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 9px 3px 7px;
+    height: 40px;
+    width: 40px;
+}
+.redcircle {
+    float: right;
+    margin-top: 0px;
+    font-size: 14px;
+    background-color: #fd4538;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 9px 3px 7px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.saledate {
+    padding:8px;
+    border:1px solid lightgrey;
+    width:100%;
+}
+input[type="date"]:after {
+        content: "\01F4C5"; 
+        color: #555;
+        padding: 0 5px;
+    }
+
+    /* change color of symbol on hover */
+    input[type="date"]:hover:after {
+        color: #bf1400;
+    }
+
+    /* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        color: transparent;
+        background: transparent;
+    }
+
+    /* adjust increase/decrease button */
+    input[type="date"]::-webkit-inner-spin-button {
+        z-index: 1;
+    }
+
+    /* adjust clear button */
+    input[type="date"]::-webkit-clear-button {
+        z-index: 1;
+    }
+
+
+
+
+.sale_dropdown {
+    padding:8px;
+    border:1px solid lightgrey;
+    width:100%;
+}
+.rightsec_saletop {
+    padding:10px 30px 10px 30px;
+}
+.rightsec_sale {
+    padding-top: 10px;
+    padding:30px;   
+}
+.salesbtn {
+    color:white;
+    border:none !important;
+    border-right:3px solid white !important;
+    background-color: #70C673;
+}
+.salesbtn:hover {
+    color:white;
+    border-right:3px solid white;
+    transform: scale(1.01);
+    background-color:#6bc46e;
+}
+.salesbtn:focus,
+.salesbtn:active {
+   outline: none !important;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius:1px !important;
+    padding:4px !important;
+    height:40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height:40px  !important;
+}
+.pos_table {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btnremovecart {
+    color:white !important;
+    padding: 5px 10px 5px 10px;
+}
+.bottomsalebtns {
+    padding:10px
+}
+.searchrelated_input {
+    border:none;
+    border-bottom:1px solid lightgrey;
+    outline: none;
+}
+.relatedproduct_btn {
+    color: white !important;
+    background-color: #70C673;
+    border: 1px solid white;
+}
+.relatedproduct_btn:hover {
+    background-color: #61b363;
+}
+.btn_sale_complete {
+    margin-bottom:5px;
+    outline: none;
+    border: none !important;
+    color: white !important;
+    background: rgb(80,137,201);
+    background: linear-gradient(127deg, rgba(80,137,201,1) 7%, rgba(24,62,112,1) 92%);
+    height:80px;
+}
+.btn_sale_complete:hover {
+    border: none !important;
+    background: rgb(54,110,172);
+    background: linear-gradient(127deg, rgba(54,110,172,1) 6%, rgba(28,76,139,1) 90%);
+}
+
+.btn_sale_cancel {
+    margin-bottom:5px;
+    border: none !important;
+    outline: none;
+    color: white !important;
+    background-color:#fc2f2f;
+    height:80px;
+    padding-top: 20px;
+}
+.btn_sale_cancel:hover {
+    opacity: 0.9;
+}
+
+.btn_payment {
+    margin-bottom:5px;
+    border: none !important;
+    outline: none;
+    color: white !important;
+    background-color:#04b660;
+    height:80px;
+    padding-top: 20px;
+}
+
+.btn_payment:hover {
+    opacity: 0.9;
+}
+
+.p-print {
+    font-size:16px;
+}
+.no-sale {
+    font-size:16px;
+}
+
+.saleinputsearch {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    margin-bottom: 20px;
+}
+
+.btn_back_top {
+    margin-top:10px;
+    outline: none;
+    border: none !important;
+    color: white !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(127deg, rgb(224, 77, 58) 7%, rgb(247, 62, 62) 92%);
+}
+
+.btn_back_top:hover {
+    margin-top:10px;
+    outline: none;
+    border: none !important;
+    color: white !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(127deg, rgb(199, 61, 42) 7%, rgb(230, 44, 44) 92%);
+}
+
+.cardpos {
+    color:white;
+    background: linear-gradient(127deg, rgb(80, 137, 201) 7%, rgb(24, 62, 112) 92%);
+}
+
+.pos_leftcard {
+   background-color:#d3d5d5;
+   padding:none !important
+}
+
+.modal-h4 {
+    color:#4caf50;
+    font-weight:600;
+}
+.modal-header {
+    background-color:#4caf50 !important;
+    color:white !important;
+    font-weight:600;
+}
+.close {
+    color:white !important;
+}
+
+
+
+.top-bar-black {
+    padding:10px;
+    background-color:black;
+}
+.top-bar-grey {
+    padding: 10px 5px 5px 10px;
+    background-color:#D3D5D5;
+}
+.h3-top {
+    color: #ecdd01;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.small-white {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.company-title {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:40px;
+    font-style: italic;
+}
+
+/* .navbtn {
+    float:right !important;
+} */
+.nav-link {
+    background-color:#4CAF50 !important;
+    color:white !important;
+    margin-right:5px;
+}
+.thead-black {
+    background-color: black;
+    color: white !important;
+}
+.tfoot-black {
+    background-color: black;
+    color: white;
+}
+.th-grey {
+    background-color: gray;
+    border:2px solid black;
+}
+/* responsiveness of POS pages */
+
+@media screen and (max-width: 762px) {
+  .top-bg-right {
+    border-top: 1px solid white;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .top-bg-left {
+    padding-left: 20px;
+  }
+  .container-fluid {
+      padding-left:5px;
+      padding-right:5px;
+  }
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .barcode {
+    margin-top: 10px;
+  }
+  .pos-text-mid {
+    font-size:20px;
+    text-align:center;
+  }
+}

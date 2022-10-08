@@ -1,0 +1,15 @@
+{
+    "name": "erp/humanresource",
+    "description": "HR Management System for ERP",
+    "authors": [
+        {
+            "name": "Taha Hameed",
+            "email": "tahahameed1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\HumanResource\\": ""
+        }
+    }
+}
